@@ -5,11 +5,11 @@
 }
 
 /*========== Header =========*/
+
 .h-header {
     background: url("../img/sections_background/section-1(header).jpg") no-repeat;
     padding-bottom: 245px;
 }
-
 
  /*-----Navbar ------*/
 
@@ -58,7 +58,6 @@
     font-weight: 700;
 }
 
-
 .navbar-menu-item{
     margin-right: 17px;
     text-decoration: none;
@@ -66,7 +65,6 @@
     font-size: 13px;
     font-weight: 700;
     color: #ffffff90;
-
 }
 
 .navbar-menu-item:hover {
@@ -85,7 +83,9 @@ color: #18cfab;
 }
 
 /*-----Navbar END------*/
+
 /*------Slogan and Buttons ----*/
+
 .header-slogan{
     display: flex;
     flex-direction: column;
@@ -122,8 +122,11 @@ color: #18cfab;
 }
 
 /*------Slogan and Buttons END ----*/
+
 /*========== Header END=========*/
+
 /*==========section  opinion=========*/
+
 .opinion{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -173,7 +176,9 @@ color: #18cfab;
 .opinion-card-text{
     padding-top: 55px;
 }
+
 /*==========section  opinion END=========*/
+
 /*==========section tabs=========*/
 
 .tabs-headline{
@@ -246,7 +251,6 @@ color: #18cfab;
     height: 140px;
     border: 1px solid #9e9e9450;
     margin-right: 20px;
-
 }
 
 /*==========section tabs END=========*/
@@ -282,7 +286,9 @@ color: #18cfab;
 }
 
 /*==========section fast-bying END=========*/
+
 /*==========section portfolio=========*/
+
 .portfolio{
     padding: 100px 0;
     background-color: #f8fcfe;
@@ -430,6 +436,7 @@ color: #18cfab;
 /*==========section portfolio END=========*/
 
 /*==========section news=========*/
+
 .news-title{
     padding: 85px 0 35px 0;
     font-size: 36px;
@@ -481,7 +488,6 @@ color: #18cfab;
     padding: 14px 0;
     font-size: 19px;
     font-weight: 700;
-
 }
 
 .news-card:hover .news-card-title{
@@ -490,17 +496,19 @@ color: #18cfab;
 
 .news-card:hover .news-date{
     background-color: #18cfab;
-
 }
 
 /*==========section news END=========*/
+
 /*==========section reviews=========*/
+
 .reviews{
     padding: 105px 0;
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../img/sections_background/section-3.jpg");
     color: #a3a7a8;
     font-size: 16px;
 }
+
 .reviews-title{
     padding-bottom: 30px;
     text-align: center;
@@ -515,12 +523,12 @@ color: #18cfab;
 .inverted-quotes{
     width: 45px;
 }
+
 .slider-comment{
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .review-wrapper{
@@ -624,12 +632,6 @@ color: #18cfab;
     overflow: hidden;
 }
 
-/*.slider-user-foto-small:hover{*/
-/*    border: 1px solid #18cfab;*/
-/*    transform: translate3d(0px, -20px, 0px);*/
-/*    transition: transform .4s ease-in-out;*/
-/*}*/
-
 .slider-user-foto-small.active{
     border: 1px solid #18cfab;
     transform: translate3d(0px, -20px, 0px);
@@ -665,16 +667,13 @@ color: #18cfab;
 
 /*==========section footer-ham END=========*/
 
-
 /*==========Global Styles=========*/
-
 
 .container {
     margin: 0 auto;
     width: 1160px;
     text-align: center;
 }
-
 
 .button{
     display: block;
@@ -701,13 +700,4 @@ color: #18cfab;
     background-position: center;
     background-size: cover;
 }
-
-
-.footerFix{
-    width: 450px;
-    height: 450px;
-    box-sizing: border-box;
-    background-color: blue;
-    color: white;
-    font-size: 24px;
 }
